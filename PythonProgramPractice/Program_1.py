@@ -1,0 +1,5 @@
+print("Hello good morning")
+print(4)
+print("heyy",end=" ")
+print("how are you")
+print(True)

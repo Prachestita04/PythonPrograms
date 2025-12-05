@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc8d5a75-7ac9-493a-af1e-e11ecf89f1d3" name="Changes" comment="operator programs">
+    <list default="true" id="cc8d5a75-7ac9-493a-af1e-e11ecf89f1d3" name="Changes" comment="delete variable program">
+      <change afterPath="$PROJECT_DIR$/PythonProgramPractice/Program_7_string_concat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonProgramPractice/Program_5_Operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProgramPractice/Program_5_Operators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
     "Python.Program_3_Datatypes.executor": "Run",
     "Python.Program_4_Typecasting.executor": "Run",
     "Python.Program_5_Operators.executor": "Run",
+    "Python.Program_6_deletevariable.executor": "Run",
+    "Python.Program_7_string_concat.executor": "Run",
     "Python.demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -66,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Program_6_deletevariable">
+  <component name="RunManager" selected="Python.Program_7_string_concat">
     <configuration name="Program_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -82,29 +84,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProgramPractice/Program_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Program_3_Datatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonProgramPractice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProgramPractice/Program_3_Datatypes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,13 +161,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Program_7_string_concat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonProgramPractice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonProgramPractice/Program_7_string_concat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Program_7_string_concat" />
         <item itemvalue="Python.Program_6_deletevariable" />
         <item itemvalue="Python.Program_5_Operators" />
         <item itemvalue="Python.Program_1" />
         <item itemvalue="Python.Program_4_Typecasting" />
-        <item itemvalue="Python.Program_3_Datatypes" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1764706976542" duration="717000" />
       <workItem from="1764707721243" duration="8000" />
       <workItem from="1764825185111" duration="1417000" />
-      <workItem from="1764915122915" duration="1041000" />
+      <workItem from="1764915122915" duration="2614000" />
     </task>
     <task id="LOCAL-00001" summary="operator programs">
       <option name="closed" value="true" />
@@ -222,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764915845599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="operator programs">
+      <option name="closed" value="true" />
+      <created>1764916177121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764916177121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete variable program">
+      <option name="closed" value="true" />
+      <created>1764916365166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764916365166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="operator programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="operator programs" />
+    <MESSAGE value="delete variable program" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete variable program" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject1$Program_4_Typecasting.coverage" NAME="Program_4_Typecasting Coverage Results" MODIFIED="1764704183579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramPractice" />
@@ -241,5 +260,6 @@
     <SUITE FILE_PATH="coverage/PythonProject1$Program_6_deletevariable.coverage" NAME="Program_6_deletevariable Coverage Results" MODIFIED="1764916331509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramPractice" />
     <SUITE FILE_PATH="coverage/PythonProject1$Program_3_Datatypes.coverage" NAME="Program_3_Datatypes Coverage Results" MODIFIED="1764704109404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramPractice" />
     <SUITE FILE_PATH="coverage/PythonProject1$Program_1.coverage" NAME="Program_1 Coverage Results" MODIFIED="1764706088069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramPractice" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Program_7_string_concat.coverage" NAME="Program_7_string_concat Coverage Results" MODIFIED="1764917744229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonProgramPractice" />
   </component>
 </project>

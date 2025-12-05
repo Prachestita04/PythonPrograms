@@ -5,6 +5,13 @@ relational operators = < , > , <= , >= , ==, !=
 assignment operators = =, +=, -=, *= , /= , %= , //= etc.
 logical operators = and, or, not
 other operators =  identity operator, bitwise operator, membership operator
+
+Operator precedence
+() = highest priority
+** = second priority
+*,/,//,% = third priority same priority (execution starts from left to right)
++ , - = fourth priority same priority (execution starts from left to right)
+
 '''
 a, b = 10, 5
 print(a + b)
